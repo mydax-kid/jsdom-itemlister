@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+}
+
+
+header{
+  background-color: green;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h2{
+  margin-left: 25px;
+  color: white;
+}
+
+header .form {
+  margin-right: 30px;
+}
+
+.clear{
+  padding: 5px;
+  background: red;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  margin-left: 10px;
+}
+
+.clear:hover{
+  background: orange;
+  cursor: pointer;
+}
+
+.section-container{
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 15px;
+  line-height: 2rem;
+}
+
+.form{
+  margin: 8px 0;
+}
+
+.form input{
+  padding: 5px;
+  outline: none;
+}
+
+form input[type='text']{
+  width: 200px;
+  margin-right: 8px;
+}
+
+form input[type='submit']{
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 8px;
+  color: white;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+form input[type='submit']:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+h2{
+  font-weight: bold;
+}
+
+.item-list{
+  border: 1px solid gray;
+  margin-top: 8px;
+  border-radius: 3px;
+  padding:  5px 10px;
+  //border-bottom: none;
+}
+
+/*
+.item-list:last-child{
+  border-bottom: 1px solid gray;
+}
+*/
+
+.fas{
+  float: right;
+  color: red;
+  margin-top: 8px;
+  font-size: 1.3rem;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.fas:hover{
+  color: orange;
+}
